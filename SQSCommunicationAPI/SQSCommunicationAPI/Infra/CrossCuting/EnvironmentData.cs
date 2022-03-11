@@ -7,9 +7,9 @@ namespace SQSCommunicationAPI.Infra.CrossCuting
     public class EnvironmentData
     {
         
-        public static string QUEUE_URL = "https://sqs.us-east-1.amazonaws.com/816192127034/Alura_queue";
-        public static string ACCESS_KEY = "AKIA34CGXQA5OTHR3DF6";
-        public static string SECRET_KEY = "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";
+        public static string QUEUE_URL = "QUEUE_URL";
+        public static string ACCESS_KEY = "ACCESS_KEY";
+        public static string SECRET_KEY = "SECRET_KEY";
 
         private static BasicAWSCredentials GetSQSCredentials()
         {
